@@ -37,8 +37,12 @@
     "smooth-scroll": "^16.0.3"
   },
   "devDependencies": {
+    "acorn": "^6.4.1",
+    "bufferutil": "^4.0.1",
     "gatsby-plugin-remove-trailing-slashes": "^2.0.11",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "typescript": "^2.9.2",
+    "utf-8-validate": "^5.0.2"
   },
   "keywords": [
     "gatsby",
