@@ -137,7 +137,8 @@ const RenderBody = ({ home, projects, meta }) => (
             <>
                 {RichText.render(home.hero_title)}
             </>
-            <a href={home.hero_button_link.url}
+            {/* <a href={home.hero_button_link.url} */}
+            <a href="https://eugeneho.cdn.prismic.io/eugeneho/5b0e675e-55e2-4d47-a4e5-2c5f1013b3f2_eugeneho_resume.docx"
                target="_blank" rel="noopener noreferrer">
                 <Button>
                     {RichText.render(home.hero_button_text)}
