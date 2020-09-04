@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import styled from "@emotion/styled";
 import colors from "styles/colors";
 import Logo from "components/_ui/Logo";
-import spooch from "images/oscar-icon.png"
+import spooch from "images/favicon.png"
 
 const FooterContainer = styled("div")`
     padding-top: 3.75em;
@@ -13,7 +13,7 @@ const FooterContainer = styled("div")`
     align-items: center;
 
     svg {
-        max-width: 50px;
+        max-width: 103px;
     }
 `
 
