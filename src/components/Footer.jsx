@@ -3,7 +3,6 @@ import { Link } from "gatsby";
 import styled from "@emotion/styled";
 import colors from "styles/colors";
 import Logo from "components/_ui/Logo";
-import spooch from "images/favicon.png"
 
 const FooterContainer = styled("div")`
     padding-top: 3.75em;
@@ -28,24 +27,12 @@ const FooterAuthor = styled("a")`
 
      &:hover {
          color: ${colors.blue900};
-
-        .FooterSpooch {
-            animation-name: rotate;
-            animation-duration: 1.5s;
-            animation-iteration-count: infinite;
-            animation-timing-function: linear;
-        }
     }
 
     @keyframes rotate {
         from {transform: rotate(0deg);}
         to {transform: rotate(360deg);}
     }
-`
-
-const FooterSpooch = styled("img")`
-    max-width: 33px;
-    margin-top: 0.25em;
 `
 
 const Footer = () => (
@@ -55,7 +42,6 @@ const Footer = () => (
         </Link>
         <FooterAuthor>
             Created by Eugene Ho
-            {/* <FooterSpooch className="FooterSpooch" src={spooch} /> */}
         </FooterAuthor>
     </FooterContainer>
 )
