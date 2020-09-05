@@ -40,9 +40,16 @@
     "acorn": "^6.4.1",
     "bufferutil": "^4.0.1",
     "gatsby-plugin-remove-trailing-slashes": "^2.0.11",
+    "git-scripts": "^0.4.3",
     "prettier": "^1.18.2",
+    "surge": "^0.21.6",
     "typescript": "^2.9.2",
     "utf-8-validate": "^5.0.2"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "surge --project ./ --domain eugeneho.surge.sh"
+    }
   },
   "keywords": [
     "gatsby",
