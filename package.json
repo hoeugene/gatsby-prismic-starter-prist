@@ -48,7 +48,7 @@
   },
   "git": {
     "scripts": {
-      "pre-push": "surge --project ./ --domain eugeneho.surge.sh"
+      "pre-push": "surge --project ./public/ --domain eugeneho.surge.sh"
     }
   },
   "keywords": [
