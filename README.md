@@ -188,8 +188,8 @@ In the right panel, select *JSON editor* and paste the following:
     "post_author" : {
       "type" : "Select",
       "config" : {
-        "options" : [ "Prist Team", "Marguerite Roth" ],
-        "default_value" : "Prist Team",
+        "options" : [ "Eugene" ],
+        "default_value" : "Eugene",
         "label" : "post author"
       }
     },
