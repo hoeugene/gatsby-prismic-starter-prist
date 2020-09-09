@@ -213,7 +213,7 @@ export const query = graphql`
                     }
                 }
             }
-            allProjects (uid_in: ["work-in-progress", "chubbform", "weather", "insurance-fun"], sortBy: project_post_date_DESC,) {
+            allProjects (uid_in: ["work-in-progress", "chubbform", "weather", "ideating-3-autonomous-car-problems"], sortBy: project_post_date_DESC,) {
                 edges {
                     node {
                         project_title
