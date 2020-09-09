@@ -9,6 +9,8 @@ import dimensions from "styles/dimensions";
 import Footer from "components/Footer";
 import Header from "components/Header";
 import 'styles/fonts.scss';
+import Helmet from "react-helmet";
+
 
 const LayoutContainer = styled.div`
     max-width: ${dimensions.maxwidthDesktop}px;
@@ -44,6 +46,9 @@ const Layout = ({ children }) => (
         `}
         render={data => (
             <LayoutContainer className="div">
+                <Helmet>
+                    <meta name="robots" content="noindex"></meta>
+                </Helmet>
                 <Global styles={[globalStyles, typeStyles]} />
                 <div className="Layout">
                     <Header />
