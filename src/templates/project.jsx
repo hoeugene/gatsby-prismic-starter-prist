@@ -89,6 +89,10 @@ const Project = ({ project, meta }) => {
                         name: `twitter:description`,
                         content: meta.description,
                     },
+                    {
+                        name: `robots`,
+                        content: "noindex",
+                    },
                 ].concat(meta)}
             />
             <Layout>
