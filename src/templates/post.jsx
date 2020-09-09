@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
-import Moment from 'react-moment';
+// import Moment from 'react-moment';
 import { graphql } from 'gatsby';
 import { RichText } from "prismic-reactjs";
 import styled from "@emotion/styled";
@@ -36,18 +36,18 @@ const PostHeroAnnotation = styled("div")`
     }
 `
 
-const PostCategory = styled("div")`
-    max-width: 768px;
-    margin: 0 auto;
-    text-align: center;
-    font-weight: 600;
-    color: ${colors.grey600};
+// const PostCategory = styled("div")`
+//     max-width: 768px;
+//     margin: 0 auto;
+//     text-align: center;
+//     font-weight: 600;
+//     color: ${colors.grey600};
 
-    h5 {
-        margin-top: 0;
-        margin-bottom: 1em;
-    }
-`
+//     h5 {
+//         margin-top: 0;
+//         margin-bottom: 1em;
+//     }
+// `
 
 const PostTitle = styled("div")`
     max-width: 768px;
@@ -84,13 +84,13 @@ const PostMetas = styled("div")`
     color: ${colors.grey600};
 `
 
-const PostAuthor = styled("div")`
-    margin: 0;
-`
+// const PostAuthor = styled("div")`
+//     margin: 0;
+// `
 
-const PostDate = styled("div")`
-    margin: 0;
-`
+// const PostDate = styled("div")`
+//     margin: 0;
+// `
 
 const Post = ({ post, meta }) => {
     return (
