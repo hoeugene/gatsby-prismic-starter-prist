@@ -42,10 +42,6 @@ const Footer = () => (
         </Link>
         <FooterAuthor>
             Created by Eugene Ho
-<<<<<<< HEAD
-=======
-            {/* <FooterSpooch className="FooterSpooch" src={spooch} /> */}
->>>>>>> footer cut og author
         </FooterAuthor>
     </FooterContainer>
 )
