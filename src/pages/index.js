@@ -173,6 +173,7 @@ const RenderBody = ({ home, projects, meta }) => (
 export default ({ data }) => {
     //Required check for no data being returned
     const doc = data.prismic.allHomepages.edges.slice(0, 1).pop();
+    // Get most recent 4 projects for homepage
     const projects = data.prismic.allProjects.edges.slice(0, 4);
     const meta = data.site.siteMetadata;
 
